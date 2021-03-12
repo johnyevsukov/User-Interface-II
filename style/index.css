@@ -1,1 +1,136 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-size: xx-large;
+    font-family: OCR A Std, monospace;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    margin-left: 20px;
+}
+nav div{
+    border: dotted 2px black;
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    background-color: gray;
+}
+#about_me_section{
+    display: flex;
+}
+#about_me_text{
+    padding: 20px;
+    margin-left: -50px;
+    width: 20%;
+    font-family: FreeMono, monospace;
+}
+#profile_picture{
+    padding: 20px;
+    width: 40%;
+    height: 40%
+}
+header{
+    background-color: #b3b3b3;
+    height: 100px;
+}
+h2{
+    font-size: 22px;
+}
+#me{
+    height: 50%;
+    width: 50%;
+    border-radius: 25%;
+}
+.project-showcase {
+    display: flex;
+    justify-content: space-between;
+}
+.spicy-things {
+    display: flex;
+    justify-content: space-between;
+}
+#about_me_ref{
+    background-color: gray;
+    width: 50%;
+    border: dotted 2px black;
+}
+#demo_one{
+    height: 200px;
+    width: 200px;
+}
+#demo_two{
+    height: 200px;
+    width: 200px;
+}
+#demo_three{
+    height: 200px;
+    width: 200px;
+}
+footer{
+    background-color: #b3b3b3;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+}
+h3{
+    text-align: center;
+    font-size: x-large;
+    font-family: OCR A Std, monospace;
+}
+#foot_contact{
+    border: dotted 2px black;
+    width:6%;
+    margin: 0 auto;
+}
+#social{
+    margin: 0 auto;
+    border: dotted 2px black;
+    width:6%;
+}
